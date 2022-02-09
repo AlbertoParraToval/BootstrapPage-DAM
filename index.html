@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic F1</title>
+  <!-- ENLACE DE STYLE DE BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- ENLACE A MI PAGINA DE STYLE-->
+  <link rel="stylesheet" href="./styles/style.css">
+  <!-- favicon-->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<!-- COMIENZO DEL BODY DE MI PAGINA WEB-->
+<body class="bg-dark fs-6 border-start border-end">
+  <div id="wrapper" class="container">
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img id="logo" src="./images/logos/logof1.jpg" alt="F1 logotipo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Comienzo de lo que se va a ver en mi barra de navegacion-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2">
+            <li class="nav-item" >
+              <a class="nav-link text-decoration-none" aria-current="page" href="#hero_section">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#introduction">Introducción</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#funcion">GP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#equipos">Escuderias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#driverStanding">Pilotos</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#constructorStanding">Constructores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#videos">Galería</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" href="#news">Noticias</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none"  href="#footer">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- fin del nav responsive de bootstrap -->
+
+    <!-- MI HERO SECTION -->
+    <section id="hero_section">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <!-- Los botones -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <!-- Se muestran las diapositivas -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/alpine.jpg" class="d-block w-100" alt="alpine">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ferrari.jpg" class="d-block w-100" alt="ferrari">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/mclaren.jpg" class="d-block w-100" alt="mclaren">
+          </div>
+        </div>
+        <!-- Los botones de next y de previous -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previo</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+    <!--Final de la seccion de carousel-->
+    
+    <!-- SECCION DE INTRODUCCION DE LA F1 -->
+    <section id="introduction">
+      <div class="container-fluid text-light border-bottom">
+        <h1 class="page-header p-3 text-center text-light">La Historia de la F1</h1>
+        <div class="clearfix">
+          <img id="masi" src="./images/masi.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="masi">
+        <p>El Campeonato Mundial de Fórmula 1 de la FIA, más conocido como Fórmula 1, F1 o Fórmula Uno, es la competición internacional de automovilismo más popular y prestigiosa del mundo. Está dirigido por la Federación Internacional del Automóvil (FIA). En septiembre de 2016, la empresa estadounidense Liberty Media, a través de su adquisición del Grupo de Fórmula Uno, es ahora responsable de la gestión y operación del campeonato.</p>
+
+        <p> Cada carrera se denomina Gran Premio (GP) y el conjunto de carreras  que las agrupa se llama Campeonato Mundial de Fórmula 1. La mayoría de los circuitos en los que se disputan los Grandes Premios son autódromos, aunque también se utilizan circuitos urbanos, y anteriormente se utilizaban circuitos de carretera. Al mismo tiempo, los coches que se utilizan son monoplazas con la última tecnología disponible, siempre limitada por los reglamentos técnicos; algunas mejoras que se desarrollaron en la Fórmula 1 acabaron utilizándose con fines comerciales  en los coches de calle, como los discos de freno.</p>
+          
+        <p>El inicio de la Fórmula 1 moderna se remonta a 1950, con la participación de equipos como Ferrari, Alfa Romeo y Maserati. Algunos fueron sustituidos por nuevas escuderías como McLaren, Williams, Red Bull y equipos que regresan como Mercedes, que ha ganado varias veces el Campeonato Mundial de Constructores. Por su parte, los pilotos deben tener una superlicencia de la FIA para competir, que se obtiene por los resultados en otros campeonatos. </p>
+      </div>
+    </section>
+
+    <!-- SECCION DE REGLAMENTO EN LA F1-->
+    <section id="funcion">
+      <div class="container-fluid text-light border-bottom">
+      <h1 class="page-header p-3 text-center text-light">¿En qué consiste un fin de semana de Gran Premio?</h1>
+      <div class="clearfix">
+        <iframe id="tutorial" class="col-md-6 float-md-end mb-3 ms-md-3" width="560" height="315" src="https://www.youtube.com/embed/TZjAkz7DIAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>En primer lugar, un fin de semana de Gran Premio tiene una duración de 3 días, divididos en viernes (entrenamientos libres), sábado (entrenamientos libres y clasificación) y domingo (día de la carrera).
+        </p>
+        <p>
+        El viernes los equipos tienen dos sesiones de entrenamientos libres en las que pueden tocar los diferentes reglajes que consideren adecuados para su coche con el fin de conseguir el mejor tiempo de vuelta para la clasificación del día siguiente. Este día se divide en los llamados Entrenamientos Libres 1 con una duración de 1 hora y los Entrenamientos Libres 2 con una duración de otra hora. 
+        </p>
+        <p>
+          El Sábado, tenemos una hora más de entrenamientos, los llamados Libres 3 donde los equipos se centran únicamente en la puesta a punto del coche para la sesión Ahora llegamos a la clasificación donde todos los equipos ponen los motores al máximo de potencia en busca de la mejor vuelta posible y poder clasificarse lo más alto posible para la carrera de mañana. La clasificación se divide en 3 rondas llamadas Q1, Q2 y Q3.
+        </p>
+        <p>
+          Finalmente llega el domingo, donde se celebra la carrera del fin de semana y donde se reparten los puntos para el campeonato. Las posiciones de salida se definen en la clasificación del sábado y las carreras suelen durar aproximadamente una hora y media.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECCION DE LOS EQUIPOS-->
+    <section id="equipos">
+      <h1 class="page-header p-4 text-center  text-light">Escuderias</h1>
+      <div class="container text-center fs-5">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 ">
+          <div class="col">
+            <div class="mercedes" class="p-4 " ><a class="text-decoration-none text-light" href="https://www.mercedesamgf1.com/en/"> Mercedes<img class="pilotos p-2" src="./images/logos/logo-mercedes-f1-2021.png" alt="Mercedes"></a></div>
+          </div>
+          <div class="col">
+            <div class="ferrari" class="p-4 " ><a class="text-decoration-none text-light" href="https://www.ferrari.com/en-KW/formula1"> Ferrari<img class="pilotos p-2" src="./images/logos/logo-ferrari-f1-2021.png" alt="Ferrari"></a></div>
+          </div>
+          <div class="col">
+            <div class="redbull" class="p-4 " ><a class="text-decoration-none text-light" href="https://www.redbull.com/int-en/redbullracing"> RedBull<img class="pilotos p-2" src="./images/logos/logos-redbull-f1-2021.png" alt="RedBull"></a></div>
+          </div>
+          <div class="col">
+            <div class="mclaren" class="p-4 " ><a class="text-decoration-none text-light" href="https://es.mclaren.com/racing/">Mclaren<img class="pilotos p-2" src="./images/logos/logo-mclaren-f1-2021.png" alt="Mclaren"></a></div>
+          </div>
+          <div class="col">
+            <div class="alpine" class="p-4" ><a class="text-decoration-none text-light" href="https://shop.alpinecars.com/equipo-de-formula-1.html">Alpine <img class="pilotos p-2" src="./images/logos/logo-alpine-f1-2021.png" alt="Alpine"></a></div>
+          </div>
+          <div class="col">
+            <div class="romeo" class="p-4 " ><a class="text-decoration-none text-light" href="https://www.sauber-group.com/motorsport/formula-1/"> Alpha Romeo<img class="pilotos p-2" src="./images/logos/logo-alfa-romeo-f1-2021.png" alt="Alpha Romeo"></a></div>
+          </div>
+          <div class="col">
+            <div class="haas" class="p-4 " ><a class="text-decoration-none text-light" href="https://www.haasf1team.com/"> Haas<img class="pilotos p-2" src="./images/logos/logo-haas-f1-2021.png" alt="Haas"></a></div>
+          </div>
+          <div class="col">
+            <div class="williams" class="p-4" ><a class="text-decoration-none text-light" href="https://www.williamsf1.com/"> Williams<img class="pilotos p-2" src="./images/logos/logo-williams-f1-2021.png" alt="Williams"> </a></div>
+          </div>
+          <div class="col">
+            <div class="tauri" class="p-4" ><a class="text-decoration-none text-light" href="https://www.scuderiaalphatauri.com/en/"> Alpha Tauri<img class="pilotos p-2" src="./images/logos/logo-alphatauri-f1-2021.png" alt="Alpha Tauri"></a></div>
+          </div>
+          <div  class="col">
+            <div class="aston" class="p-4 "><a class="text-decoration-none text-light" href="https://www.astonmartin.com/en/our-world/amf1">Aston Martin<img class="pilotos p-2" src="./images/logos/logo-aston-martin-f1-2021.png" alt="Aston Martin"></a> </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION DE LA CLASIFICAION DE PILOTOS-->
+    <section id="driverStanding">
+      <h1 class="page-header p-4 text-center text-light">Clasificación de Pilotos</h1>
+      <table class="table"  class="border border-white ">
+        <!-- ENCABEZADO DE LA TABLA-->
+        <thead>
+          <tr class="text-center fw-bolder text-dark fs-4 bg-white">
+            <th scope="col"><img id="logo" src="./images/logos/logof1.jpg" alt="F1 logotipo"></th>
+            <th scope="col" class="text-center fw-bolder text-dark fs-4" >Nombre</th>
+            <th scope="col" class="text-center fw-bolder text-dark fs-4">Escuderia</th>
+            <th scope="col" class="text-center fw-bolder text-dark fs-4">PTS</th>
+          </tr>
+        </thead>
+        <!-- CONTENIDO DE LA TABLA -->
+        <tbody>
+          <tr class="redbull text-center fw-bolder text-light">
+            <th scope="row" >1º</th>
+            <td>Max Verstappen</td>
+            <td>RedBull F1 Team</td>
+            <td>395.5</td>
+          </tr>
+
+          <tr class="mercedes text-center fw-bolder text-light">
+            <th class="text-center fw-bolder text-light" scope="row">2º</th>
+            <td>Lewis Hamilton</td>
+            <td>Mercedes AMG F1</td>
+            <td>389</td>
+          </tr>
+
+          <tr class="mercedes text-center fw-bolder text-light">
+            <th class="text-center fw-bolder text-light" scope="row">3º</th>
+            <td>Valtteri Bottas</td>
+            <td>Mercedes AMG F1</td>
+            <td>226</td>
+          </tr>
+
+          <tr class="redbull text-center fw-bolder text-light">
+            <th  scope="row" >4º</th>
+            <td>Sergio Pérez</td>
+            <td>RedBull F1 Team</td>
+            <td>190</td>
+          </tr>
+
+          <tr class="ferrari text-center fw-bolder text-light">
+            <th  scope="row" >5º</th>
+            <td>Carlos Sainz</td>
+            <td>Ferrari</td>
+            <td>164.5</td>
+          </tr>
+
+          <tr class="mclaren text-center fw-bolder text-light">
+            <th scope="row" >6º</th>
+            <td>Lando Norris</td>
+            <td>Mclaren F1 Team</td>
+            <td>160</td>
+          </tr>
+
+          <tr class="ferrari text-center fw-bolder text-light">
+            <th  scope="row" >7º</th>
+            <td>Charles Leclerc</td>
+            <td>Ferrari</td>
+            <td>159</td>
+          </tr>
+
+          <tr class="mclaren text-center fw-bolder text-light">
+            <th scope="row" >8º</th>
+            <td>Danniel Ricciardo</td>
+            <td>Mclaren F1 Team</td>
+            <td>115</td>
+          </tr>
+
+          <tr class="tauri text-center fw-bolder text-light">
+            <th scope="row" >9º</th>
+            <td>Pierre Gasly</td>
+            <td>Alpha Tauri F1</td>
+            <td>110</td>
+          </tr>
+
+          <tr class="alpine text-center fw-bolder text-light">
+            <th  scope="row" >10º</th>
+            <td>Fernando Alonso</td>
+            <td>Alpine Team</td>
+            <td>81</td>
+          </tr>
+
+          <tr class="alpine text-center fw-bolder text-light">
+            <th scope="row" >11º</th>
+            <td>Esteban Ocon</td>
+            <td>Alpine Team</td>
+            <td>74</td>
+          </tr>
+
+          <tr class="aston text-center fw-bolder text-light">
+            <th  scope="row" >12º</th>
+            <td>Sebastian Vettel</td>
+            <td>Aston Martin F1</td>
+            <td>43</td>
+          </tr>
+
+          <tr class="aston text-center fw-bolder text-light">
+            <th  scope="row" >13º</th>
+            <td>Lance Stroll</td>
+            <td>Aston Martin F1</td>
+            <td>34</td>
+          </tr>
+
+          <tr class="tauri text-center fw-bolder text-light">
+            <th  scope="row" >14º</th>
+            <td>Yuki Tsunoda</td>
+            <td>Alpha Tauri F1</td>
+            <td>32</td>
+          </tr>
+
+          <tr class="williams text-center fw-bolder text-light">
+            <th  scope="row" >15º</th>
+            <td>George Russel</td>
+            <td>Williams F1</td>
+            <td>16</td>
+          </tr>
+
+          <tr class="romeo text-center fw-bolder text-light">
+            <th scope="row" >16º</th>
+            <td>Kimi Raikonnen</td>
+            <td>Alpha Romeo F1</td>
+            <td>10</td>
+          </tr>
+
+          <tr class="williams text-center fw-bolder text-light">
+            <th scope="row" >17º</th>
+            <td>Nicolas Latifi</td>
+            <td>Williams F1</td>
+            <td>7</td>
+          </tr>
+
+          <tr class="romeo text-center fw-bolder text-light">
+            <th  scope="row" >18º</th>
+            <td>Antonio Gionivinnazi</td>
+            <td>Alpha Romeo F1</td>
+            <td>3</td>
+          </tr>
+
+          <tr class="haas text-center fw-bolder text-light">
+            <th  scope="row" >19º</th>
+            <td>Mick Schumacher</td>
+            <td>Haas F1 Team</td>
+            <td>0</td>
+          </tr>
+
+          <tr class="haas text-center fw-bolder text-light">
+            <th  scope="row" >20º</th>
+            <td>Nikita Mazepin</td>
+            <td>Haas F1 Team</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SECCION DE LA CLASIFICACION DE CONSTRUCTORES-->
+    <section id="constructorStanding">
+      <h1 class="page-header p-4 text-center text-light">Clasificación de Constructores</h1>
+      <table class="table" class="th-driver">
+        <!-- ENCABEZADO DE LA TABLA-->
+        <thead>
+          <tr class="text-center fw-bolder text-dark fs-4 bg-white ">
+            <th scope="col"><img id="logo" src="./images/logos/logof1.jpg" alt="F1 logotipo"></th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Director Principal</th>
+            <th scope="col">PTS</th>
+          </tr>
+        </thead>
+        <!-- EL CONTENIDO DE LA TABLA-->
+        <tbody>
+          <tr class="mercedes text-center fw-bolder text-light">
+            <th scope="row" >1º</th>
+            <td>Mercedes F1</td>
+            <td>Toto Wolf</td>
+            <td>613.5</td>
+          </tr>
+
+          <tr class="redbull text-center fw-bolder text-light">
+            <th scope="row" >2º</th>
+            <td>RedBull F1 Team</td>
+            <td>Christian Horner</td>
+            <td>585.5</td>
+          </tr>
+
+          <tr class="ferrari text-center fw-bolder text-light">
+            <th scope="row">3º</th>
+            <td>Ferrari</td>
+            <td>Mattia Binotto</td>
+            <td>323.5</td>
+          </tr>
+          <tr class="mclaren text-center fw-bolder text-light">
+            <th scope="row" >4º</th>
+            <td>Mclaren F1 </td>
+            <td>Andreas Seidl​</td>
+            <td>275</td>
+          </tr>
+          <tr class="alpine text-center fw-bolder text-light">
+            <th class="text-center fw-bolder text-light" scope="row" >5º</th>
+            <td>Alpine F1</td>
+            <td>Davide Bibrio</td>
+            <td>155</td>
+          </tr>
+          <tr class="tauri text-center fw-bolder text-light">
+            <th class="text-center fw-bolder text-light" scope="row" >6º</th>
+            <td>Alpha Tauri F1</td>
+            <td>Franz Tost</td>
+            <td>142</td>
+          </tr>
+          <tr class="aston text-center fw-bolder text-light" >
+            <th scope="row">7º</th>
+            <td>Aston Martin F1</td>
+            <td>Mike Krack</td>
+            <td>77</td>
+          </tr>
+          <tr class="williams text-center fw-bolder text-light">
+            <th scope="row">8º</th>
+            <td>Williams F1</td>
+            <td>Jost Capito​</td>
+            <td>23</td>
+          </tr>
+          <tr class="romeo text-center fw-bolder text-light">
+            <th scope="row">9º</th>
+            <td>Alpha Romeo F1</td>
+            <td>Frederic Vasseur</td>
+            <td>13</td>
+          </tr>
+          <tr class="haas text-center fw-bolder text-light">
+            <th scope="row">10º</th>
+            <td>Haas</td>
+            <td>Günther Steiner</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SECCION DE VIDEOS-->
+    <section id="videos">
+      <h1 class ="page-header p-4 text-center text-light " >Galería</h1>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <!-- LOS SLIDES QUE TENGO PARA MIS FOTOS -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9" aria-label="Slide 10"></button>
+        </div>
+        <!-- LAS FOTOS-->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/alpine22.jpg" class="d-block w-100" alt="Alpine">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Alpine A521</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/ferrari222.jpg" class="d-block w-100" alt="Ferrari">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ferrari SF1000</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./images/redbullaso.jpg" class="d-block w-100" alt="redbull">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Red Bull RB16B</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="./images/mercedes.jpg" class="d-block w-100" alt="mercedes">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-light">Mercedes AMG W13</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="./images/mclaren2222222.jpg" class="d-block w-100" alt="McLaren">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>McLaren MCL35</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="6000">
+            <img src="./images/aston.jpg" class="d-block w-100" alt="Aston Martin">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Aston Martin AMR21</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="7000">
+            <img src="./images/Alfa-2021.jpg" class="d-block w-100" alt="alfa-2021">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Alfa Romeo C39</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="8000">
+            <img src="./images/williams.jpg" class="d-block w-100" alt="Williams f1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-light">Williams FW43</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="8000">
+            <img src="./images/tauri.jpg" class="d-block w-100" alt="Alfa tauri">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Alfa Thauri AT02</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/haas.jpg" class="d-block w-100" alt="Haas">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="tex-light">Hass VF-22</h5>
+            </div>
+          </div>
+        </div>
+        <!-- LOS BOTONES DE NEXT Y BACK-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
+    <!-- SECCION DE NOTICIAS CON CARDS-->
+    <section id="news">
+      <h1 class="page-header p-4 text-center text-light">Noticias</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 py-3 px-4">
+        <div class="col">
+          <!-- Primera Card-->
+          <div class="card h-100">
+            <img src="./images/fernando-alonso-alpine-box-2021-helmet-alpine.jpg" class="card-img-top" alt="Fernando Alonso">
+            <div class="card-body">
+              <h5 class="card-title">Alonso se siente fuerte para 2022</h5>
+              <p class="card-text">El español regresó a la F1 en 2021 para estar listo para todo en la nueva era y 
+                Sostiene que en el inicio la nueva normativa resultará algo extraña para el paddock, debido a la duda de rendimientos entre equipos.</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card1" data-bs-toggle="tooltip" data-bs-placement="right" title="Leer más">
+                Leer más
+              </button>
+              <div class="modal fade" id="card1" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Fernando Alonso se siente fuerte y preparado para 2022. El piloto de Alpine asegura que la primera temporada con las nuevas regulaciones siempre fue su objetivo principal y después de un año de regreso y adaptación, está listo para volver a dar guerra con los nuevos monoplazas.</p> 
+
+                      <p>Alonso volvió a la Fórmula 1 en 2021 tras dos años de ausencia y lo hizo con la meta de prepararse lo mejor posible para la nueva era de la categoría reina. Esta temporada llega el cambio de normativa más drástico de toda la historia y Fernando y Alpine quieren aprovecharlo para regresar a lo más alto. Hasta el momento, la preparación ha ido por buen camino y el español se siente fuerte y preparado para todo.	</p>
+
+                      <p>
+                        "Estoy contento con el regreso a la Fórmula 1. Me siento fuerte y estoy preparado para 2022, que era el objetivo principal, llegar bien a las nuevas regulaciones. La temporada anterior fue buena para mí y estoy contento por ello", ha reconocido Alonso en palabras que publica el portal web GPFans.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Segunda Card-->
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/ferrari-card.jpg" class="card-img-top" alt="ferrari 2022">
+            <div class="card-body">
+              <h5 class="card-title">El Nuevo Ferrari de 2022, llamado F1-75</h5>
+              <p class="card-text">El Ferrari de 2022 de Carlos Sainz y Charles Leclerc ya tiene nombre. La apuesta de los de rojo se llama F1-75 y verá la luz el próximo 17 de febrero.</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card2" data-bs-toggle="tooltip" data-bs-placement="right" title="Leer más">
+                Leer más
+              </button>
+              <!-- Vertically centered modal -->
+              <div class="modal fade" id="card2" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Ferrari ha anunciado que el nombre de su coche de 2022 será el F1-75, en honor al 75º aniversario de la fecha en la que Enzo Ferrari arrancó el primer motor de la Scuderia en 1947. Los de Maranello también han revelado que la presentación del mismo será el 17 de febrero a las 14:00 CET.</p> 
+
+                      <p>Ferrari tiene grandes esperanzas depositadas en 2022, año en el que tratarán de aprovechar el cambio de normativa para volver a lo más alto y poner fin a su sequía de títulos. El coche con el que quiere hacerlo recibirá el nombre de F1-75, que se debe a que en 2022 se cumplen 75 años del primer motor Ferrari que arrancó su fundador, Enzo, en Maranello.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Tercera Card -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/marko-verstappen-bottas-.jpg" class="card-img-top" alt="Valtteri Bottas">
+            <div class="card-body">
+              <h5 class="card-title">Doctor Marko: "Bottas es un perdedor adelantando"</h5>
+              <p class="card-text">El asesor de Red Bull, Helmut Marko, asegura que Valtteri Bottas es un perdedor a la hora de adelantar en pista. El austriaco sostiene que el finés es un piloto muy rápido, pero siempre le cuesta mucho ganar posiciones
+
+              </p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card3" data-bs-toggle="tooltip" data-bs-placement="right" title="Leer más">
+                Leer más
+              </button>
+              <!-- Vertically centered modal -->
+              <div class="modal fade" id="card3" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Marko ha aplaudido el gran trabajo de su piloto en aquellas carreras, que fueron claves para que Max Verstappen se pudiera proclamar campeón del mundo. Además, el austriaco remarca que Bottas es incapaz de ganar posiciones en pista y pese a que tiene una gran velocidad a una vuelta, no sabe cómo remontar desde atrás.
+
+                        "Hay una gran diferencia entre Pérez y Bottas, quien es un perdedor a la hora de adelantar en pista. Bottas es un piloto muy rápido, pero es incapaz de ganar posiciones cuando está en tráfico", ha comentado Marko a la revista Autorevue, según publica la delegación turca del portal web Motorsport.com.</p> 
+
+                      <p>De cara a 2022, Marko cree que Pérez debe mejorar en clasificación y arrancar desde posiciones más altas las carreras.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-1 "></div>
+        <div aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer"
+          class="text-center text-lg-start text-white"
+          style="background-color: #ffffff39"
+          >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 text-center font-weight-bold bg-white p-2" style="--bs-bg-opacity: .5;">
+              IES CAMPANILLAS
+            </h6>
+            <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12787.601937156229!2d-4.5521375!3d36.74895969999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1643802169282!5m2!1ses!2ses" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 text-center font-weight-bold bg-white p-2" style="--bs-bg-opacity: .5;" >Contacts</h6>
+            <p><i class="fas fa-home mr-3"></i> Málaga, España</p>
+            <p><i class="fas fa-home mr-3"></i> +34 665 87 93 13</p>
+            <p><i class="fas fa-envelope mr-3"></i>alberto.parra.fp@gmail.com</p>
+            
+            <a class="btn tauri text-center text-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              Sobre mi
+            </a>
+            <div class="offcanvas offcanvas-start bg-succes bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header back">
+                <h5 class="offcanvas-title text-center text-light bg-dark" id="offcanvasExampleLabel">Sobre Mi</h5>
+                <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close "></button>
+              </div>
+              <div class="offcanvas-body text-light bg-dark">
+                <div>
+                  Me llamo Alberto Parra Toval, soy estudiante en el IES Campanillas y este es mi trabajo de la asignatura de Lenguaje de Marcas con el objetivo de diseñar una página web con ayuda de la herramienta Bootstrap 5.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 text-center font-weight-bold bg-white p-2" style="--bs-bg-opacity: .5;">Mis Redes Sociales</h6>
+            <div class="row">
+              <div class="col align-self-start">
+            <!-- Twitter -->
+            <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #55acee"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"><img class="redes" src="./images/iconosfooter/1491579542-yumminkysocialmedia22_83078.ico" alt=""> </i
+            ></a>
+
+          <!-- Google -->
+            <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #dd4b39"
+            href="https://www.youtube.com/"
+            role="button"
+            ><i class="fab fa-youtube"><img class="redes" src="./images/iconosfooter/Youtube_icon-icons.com_66802.ico" alt=""></i
+            ></a>
+              </div>
+              <div class="col align-self-center">
+                <!-- Instagram -->
+            <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="#parra_038"
+            role="button"
+            ><i class="fab fa-instagram"><img class="redes" src="./images/iconosfooter/iconfinder-insta-4416094_116652.ico" alt="instagram"></i
+            ></a>
+
+          <!-- Github -->
+          <a
+          class="btn btn-primary btn-floating m-1 "
+          style="background-color: #333333"
+          href="https://github.com/AlbertoParraToval"
+          role="button"
+          ><i  class="fab fa-github"><img class="redes"  src="./images/iconosfooter/github_original_wordmark_logo_icon_146506.ico" alt=""></i
+            ></a>
+            </div>
+            <div class="p-2"></div>
+            <a href="#hero_section"  class=" r-25 rounded-pill text-decoration-none fs-4 p-4 text-center fw-bolder text-light tauri" role="button">Volver Atrás</a>
+          </div>
+        </div>
+        <div class = "p-2"></div>
+        
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <div>
+      
+    </div>
+    
+
+
+
+    <!-- Copyright -->
+    <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+      © 2022 Copyright:
+      <a class="text-white text-decoration-none" href="https://github.com/AlbertoParraToval"
+        >Alberto Parra Toval</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  </div>
+
+  <!--ENLACE DEL JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
